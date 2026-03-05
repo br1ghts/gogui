@@ -1,0 +1,27 @@
+# Rust
+/target/
+**/*.rs.bk
+
+# Editor/OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Local env/logs
+.env
+.env.*
+*.log
+
+# App local config/data (contains OAuth creds/tokens)
+.config/
+.local/
+cache.db
+credentials.json
+token.json
+gmail_token.json
+
+# Backup/temporary
+*.tmp
+*.bak
